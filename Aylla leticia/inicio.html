@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        nav {
+            display: flex;
+            align-items: center;
+            padding: 0 5px;
+        }
+
+        .nav-logo {
+            height: 75px;
+            width: auto;
+            margin-right: 150px;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: teal;
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-logo {
+            width: 600px;
+            max-width: 80%;
+            /* responsivo em telas menores */
+            height: auto;
+            /* mantém a proporção */
+        }
+
+        footer {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Venha conhecer o melhor do nosso Brasil!</h1>
+    </header>
+
+    <nav>
+        <a href="inicio.html">
+            <img src="Imagens/logo3.png" alt="Logo do site" class="nav-logo">
+        </a>
+        <ul>
+            <li><a href="home.html">Turismo Praiano</a></li>|
+            <li><a href="brasilia.html">Turismo Urbano</a></li>|
+            <li><a href="v2index.html">Turismo Rural</a></li>|
+            <li><a href="index.html">Turismo Natureza</a></li>|
+            <li><a href="cadastro.html">Cadastre-se</a></li>|
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <img src="Imagens/logo3.png" alt="Logo do site" class="main-logo">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Turismo Rural Brasil.</p>
+    </footer>
+</body>
+
+</html>
